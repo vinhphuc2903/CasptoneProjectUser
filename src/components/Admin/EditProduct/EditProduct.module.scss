@@ -1,0 +1,39 @@
+.EditProduct{
+    .rightpage {
+        margin-left: 300px;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        .infoProduct{
+            box-shadow: rgba(149, 157, 165, 0.41) 0px 8px 24px;
+            border-radius: 12px;
+            width: 1130px;
+            height: max-content;
+            padding-bottom: 20px;
+            margin-bottom: 20px;
+            .Detail{
+                display: flex;
+                justify-content: space-around;
+            }
+            .imgProduct{
+                margin: 20px 0px;
+                display: flex;
+                justify-content: space-around;
+            }
+            .submitButton {
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                justify-content: center;
+                .buttonStyle {
+                    margin-left: 40px;
+                    width: '120px';
+                    background-color: '#333333';
+                    color: '#FFFFFF';
+                    
+                    height: '38px';
+                }
+            }
+        }
+    }
+}

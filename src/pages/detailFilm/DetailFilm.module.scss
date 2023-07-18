@@ -1,0 +1,77 @@
+.detailFilmPage {
+    width: 100%;
+    min-height: 100vh;
+    background-image: linear-gradient(to bottom,  #1f1e1f, #b2750b);
+    display: flex;
+    justify-content: center;
+    .headerContent {
+        width: 85%;
+        background-color: #22272b; 
+        .filmData{
+            padding: 5%;
+            .headerMain {
+                min-width: 85%;
+                min-height: 80px;
+                border: 2px solid #e9ecef;
+                color: #e9ecef;
+                border-radius: 2px;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                padding-left: 4%;
+                .contentHeader {
+                    font-size: 40px;
+                    font-weight: 600;
+                    font-family: 'emoji';
+                }
+                .hotLine {
+                    color: #e9ecef;
+                    font-size: 18px;
+                    font-weight: 600;
+                    font-family: 'emoji';
+                }
+                .contentHeaderUnder{
+                    color: #e9ecef;
+                    font-size: 18px;
+                    font-weight: 500;
+                    font-family: 'emoji';
+                }
+            }
+            .showTime {
+                color: #e9ecef;
+                font-size: 30px;
+                margin: 20px 0px;
+                font-weight: 500;
+                font-family: 'emoji';
+            }
+            .contentMain {
+                display: flex;
+                flex-direction: column;
+                gap: 10px;
+                margin: 20px 0px;
+                justify-content: center;
+                .contentMainData {
+                    display: flex;
+                    flex: row;
+                    gap: 30px;
+                    padding: 20px 0px;
+                    border-bottom: 1px dotted rgb(162, 149, 149);
+                    align-items: center;
+                    .contentDate {
+                        min-width: 80px;
+                        padding: 10px 50px 10px 10px;
+                        background-color: gray;
+                        color: white;
+                    }
+                    .contentShow {
+                        display: block;
+                        max-width: 100%;
+                        // flex-direction: row;
+                        gap: 20px
+                    }
+                }
+            }
+        }
+    }
+}

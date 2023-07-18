@@ -1,0 +1,34 @@
+.cart {
+    .tiltleReturn {
+        display: fixed;
+        margin-left: 250px;
+        margin-top: 5px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 20px;
+
+        .header {
+            cursor: pointer;
+        }
+    }
+
+    .emptyCart {
+        text-align: center; 
+        border: 3px solid black;
+        width: 1000px;
+        height: 480px;
+        margin-top: 60px;
+        margin-left: 295px;
+
+        .content {
+            padding-top: 100px;
+
+            p {
+                padding-top: 10px;
+                font-size: 30px;
+                font-weight: 500;
+            }
+        }
+    }
+}

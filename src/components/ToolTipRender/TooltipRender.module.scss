@@ -1,0 +1,15 @@
+
+.listItem {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    .itemDetail{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 10px;
+        .textItem {
+            color: white;
+        }
+    }
+}

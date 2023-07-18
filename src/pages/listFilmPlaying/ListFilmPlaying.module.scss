@@ -1,0 +1,84 @@
+.listFilmPlaying {
+    width: 100%;
+    min-height: 100vh;
+    padding-bottom: 50px;
+    background-image: linear-gradient(to bottom,  #1f1e1f, #b2750b);
+    display: flex;
+    justify-content: center;
+    .headerContent {
+        width: 85%;
+        background-color: #22272b; 
+        .headerMain {
+            min-width: 85%;
+            min-height: 80px;
+            border: 2px solid #dc5c5c;
+            color: #bb2c2c;
+            border-radius: 2px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: left;
+            padding-left: 4%;
+            .contentHeader {
+                font-size: 40px;
+                font-weight: 600;
+                font-family: 'emoji';
+            }
+            .hotLine {
+                color: black;
+                font-size: 18px;
+                font-weight: 600;
+                font-family: 'emoji';
+            }
+            .contentHeaderUnder{
+                color: black;
+                font-size: 18px;
+                font-weight: 500;
+                font-family: 'emoji';
+            }
+        }
+        .filmItem {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: left;
+            padding: 50px 0px;
+            grid-row-end: 10px;
+            row-gap: 20px;
+            font-weight: 600;
+            font-size: 14px;
+        }
+        .showTime {
+            font-size: 30px;
+            margin: 20px 0px;
+            font-weight: 500;
+            font-family: 'emoji';
+        }
+        .contentMain {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            margin: 20px 0px;
+            justify-content: center;
+            .contentMainData {
+                display: flex;
+                flex: row;
+                gap: 30px;
+                padding: 20px 0px;
+                border-bottom: 1px dotted rgb(162, 149, 149);
+                align-items: center;
+                .contentDate {
+                    min-width: 80px;
+                    padding: 10px 50px 10px 10px;
+                    background-color: gray;
+                    color: white;
+                }
+                .contentShow {
+                    display: flex;
+                    flex-direction: row;
+                    gap: 20px
+                }
+            }
+        }
+
+    }
+}

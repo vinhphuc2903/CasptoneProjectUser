@@ -1,0 +1,165 @@
+.shopOnlineMain {
+    .shopOnlineHeader {
+        width: 100%;
+        height: 80px;
+        background-color: #001A37;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        .shopInputSearch {
+            width: 546px;
+            height: 40px;
+            margin-left: 493px;
+            background: #D9D9D9;
+            border-radius: 100px;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            .shopInput {
+                width: 500px;
+                height: 40px;
+                margin: 0px 30px 0 20px;
+                border: 0px;
+                background: #D9D9D9;
+                // border-radius: 100px 100px 100px 0px;
+            }
+            input:focus {
+                outline: none;
+            }
+        }
+        .shopInput {
+            width: 161.96px;
+            height: 40px;
+            background: #D9D9D9;
+            border-radius: 100px;
+            margin-left: 36px;
+            padding-left: 15px;
+            
+        }
+        input:focus {
+            outline: none;
+        }
+        .shopIcon {
+            margin-left: 60px;
+            display: flex;
+            flex-direction: row;
+            gap: 20px;
+        }
+    }
+
+    .listHeaderShop {
+        height: 55px;
+        width: 100%;
+        background-color: #000000;
+        align-items: center;
+        color: white;
+        display: flex;
+        flex-direction: row;
+        text-align: center;
+        gap: 40px;
+        justify-content: center;
+        .listItem {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            .itemDetail{
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                gap: 10px;
+                .textItem {
+                    color: white;
+                }
+            }
+        }
+    }
+
+    .mainLaptop {
+        margin-left: 250px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 20px;
+        .header {
+            cursor: pointer;
+        }
+    }
+    .laptopTitle {
+        margin-left: 250px;
+        margin-right: 250px;
+        margin-top: 20px;
+        font-size: 32px;
+        font-weight: 600;
+        line-height: 32px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        .laptopSearchNew {
+            // position: fixed;
+            margin-right: 20px;
+        }
+        .laptopSearch {
+            align-items: flex-end;
+            width: 100%;
+            display: flex;
+            flex-direction: row-reverse;
+            gap: 20px;
+        }
+    }
+    .laptopList {
+        margin-left: 250px;
+        margin-right: 250px;
+        display: inline-flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: left;
+        gap: 20px;
+        align-items: center;
+        width: calc((100% - 500px));
+        max-width: calc(100% - 500px);
+        .itemLaptop {
+            max-width: calc((100%)/3.2);
+            cursor: pointer;
+            .priceItem {
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                gap: 120px;
+                .price {
+                    color: #FFFFFF;
+                    background-color: #F20707;
+                    width: 91px;
+                    height: 22px;
+                    padding: 2px 7px;
+                    font-family: 'Montserrat';
+                    font-style: normal;
+                    font-weight: 600;
+                    font-size: 14px;
+                    line-height: 17px;
+                    border-radius: 5px;
+                }
+            }
+            .productDetail {
+                margin-top: 10px;
+                margin-right: 10px;
+                background-color: #D9D9D9;
+                height: 86px;
+                padding: 5px 10px;
+                .itemDetail {
+                    display: flex;
+                    flex-direction: row;
+                    .item {
+                        font-size: 14px;
+                        font-weight: 400;
+                        min-width: calc(100% /2 );
+                        max-width: calc(100%)/2;
+                        display: flex;
+                        flex-direction: row;
+                        gap: 10px;
+                    }
+                }
+            }
+        }
+        
+    }
+}

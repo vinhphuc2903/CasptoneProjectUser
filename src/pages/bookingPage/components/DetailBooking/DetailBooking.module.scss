@@ -1,0 +1,34 @@
+.DetailBooking {
+    background-color: white;
+    padding-top: 30px;
+    height: fit-content;
+    color: black;
+    min-height: 300px;
+    .HeaderBooking {
+        display: flex;
+        justify-content: center;
+        font-size: 30px;
+    }
+    .infoDetail {
+        display: flex;
+        flex-direction: row;
+        padding: 40px;
+        .column {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+    }
+    .qrData {
+        width: 100%;
+        justify-content: flex-end;
+        display: flex;
+        padding: 10px 60px 30px;
+    }
+    .exportFile {
+        display: flex;
+        justify-content: end;
+        padding: 10px 40px;
+    }
+}

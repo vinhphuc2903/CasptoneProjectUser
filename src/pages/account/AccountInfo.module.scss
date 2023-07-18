@@ -1,0 +1,64 @@
+.accountInfoContente {
+    min-height: 100vh;
+    background-image: linear-gradient(to bottom,  #1f1e1f, #b2750b);
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    .accountInfo {
+        background-color: antiquewhite;
+        width: 85%;
+        .tiltleReturn {
+            display: fixed;
+            margin-left: 150px;
+            margin-top: 5px;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            gap: 20px;
+            .header {
+                cursor: pointer;
+            }
+        }
+        .infomain{
+            // border: 1px solid black;
+            width: 25%;
+            height: 80%;
+            .avatar{
+                text-align: center;
+            }
+            .infoItems {
+            
+            }
+        }
+        .infoDetails{
+            // margin-top: 10px;
+            // width: 900px;
+            height: max-content;
+            border: 1px solid rgba(0, 0, 0, 0.344);
+            border-radius: '5px';
+            padding-bottom: 20px;
+            margin-bottom: 20px;
+            .Details{
+                margin: 0px 50px;
+                display: grid;
+                grid-template-columns: repeat(2,1fr);
+                gap: 40px;
+                row-gap: 15px; 
+            }
+        }
+        .infoAddress{
+            margin-top: 10px;
+            width: 70%;
+            height: 220px;
+            border: 1px solid rgba(0, 0, 0, 0.344);
+            .Address{
+                display: grid;
+                margin-left: 50px;
+                // grid-template-columns:300px 300px 300px;
+                column-gap: 35px;
+                row-gap: 15px; 
+            
+            }
+        }
+    }
+}

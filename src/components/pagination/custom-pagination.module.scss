@@ -1,0 +1,12 @@
+.customPagination {
+    background-color: white;
+    :global {
+        .MuiTablePagination-actions {
+            display: none !important;
+        }
+        .MuiPagination-ul{
+            margin-top: 10px;
+            padding-left: 10px;
+        }
+    }
+}

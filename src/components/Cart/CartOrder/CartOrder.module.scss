@@ -1,0 +1,31 @@
+.headerMain {
+    width: 668px;
+    height: 83px;
+    border-radius: 12px;
+    background-color: #F4F4F4;
+    margin: 40px 0px;
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    .iconLeft {
+        display: flex;
+        flex-direction: row;
+        gap: 20px;
+        align-items: center;
+        margin-left: 30px;
+    }
+    .iconCenter {
+        display: flex;
+        flex-direction: row;
+        gap: 20px;
+        align-items: center;
+        margin-left: 30px;
+    }
+    .iconRight {
+        display: flex;
+        flex-direction: row;
+        gap: 20px;
+        align-items: center;
+        margin-left: 30px;
+    }
+}

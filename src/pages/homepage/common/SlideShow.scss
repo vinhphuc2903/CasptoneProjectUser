@@ -1,0 +1,16 @@
+.slideContainer{
+    width: 100%;
+    text-align: center;
+    // height: 500px;
+    display: flex;
+    justify-content: center;
+    :global {
+        .each-fade {
+            width: 80%;
+            .img {
+                width: 60%;
+                height: 300px;
+            }
+        }
+    }
+}

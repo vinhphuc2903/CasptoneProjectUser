@@ -1,0 +1,62 @@
+.tableBonus {
+    .bonus {
+        color: black;
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        padding: 0px;
+        gap: 10px;
+        height: 19px;
+        margin-bottom: 10px;
+        .numberBonus {
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 16px;
+            min-width: 200px;
+    
+            span {
+                font-weight: 600;
+                font-size: 16px;
+                color: #3078F1;
+            }
+        }
+    
+        .totalBonus {
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 16px;
+            span {
+                font-size: 16px;
+                font-weight: 600;
+                color: #1BA103;
+            }
+        }
+    }
+    .itemTable {
+        font-size: 14px;
+        font-weight: 400;
+    }
+    .itemTableBold {
+        font-size: 14px;
+        font-weight: 600;
+    }
+    
+    .onEdit {
+        color: #138300;
+    }
+    
+    .onDelete {
+        color: #FF3434;
+    }
+    .LineClamp{
+        font-size: 14px;
+        font-weight: 400;
+        white-space: nowrap; 
+      overflow: hidden;
+      text-overflow: ellipsis;
+      .LineClamp:hover {
+        overflow: visible;
+      }
+      }
+    
+}

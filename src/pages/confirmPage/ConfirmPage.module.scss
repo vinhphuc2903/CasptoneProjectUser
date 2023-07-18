@@ -1,0 +1,209 @@
+.ConfirmPage {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+    padding-bottom: 20px;
+    background-image: linear-gradient(to bottom,  #1f1e1f, #b2750b);
+    .contentMain {
+        width: 85%;
+        height: fit-content;
+        min-height: 80vh;
+        padding-bottom: 24vh;
+        background-color: #22272b; 
+        color: #e9ecef;
+        .choseChair {
+            .chair {
+                width: 100%;
+                height: 102px;
+                display: flex;
+                font-size: 38px;
+                font-weight: 600;
+                font-family: 'emoji';
+                align-content: center;
+                position: relative;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+                border-bottom: 1px solid #e9ecef;
+                .contentdata {
+                    font-size: 28px;
+                    font-weight: 500;
+                }
+            }
+            .foodAndDrk {
+                margin-left: 10%;
+                display: flex;
+                flex-direction: column;
+                padding: 5px 20px;
+                gap: 5px;
+                justify-content: space-between;
+                .infoData {
+                    font-size: 20px;
+                    text-transform: uppercase;
+                    text-decoration: underline;
+                }
+                .detailInfoData {
+                    margin-left: 20px;
+                    font-size: 14px;
+                    font-weight: 400;
+                    display: flex;
+                    flex-direction: column;
+                    gap: 5px;
+
+                    .chairData {
+                        color: #e4d759;
+                    }
+                    .chairChose{
+                        display: flex;
+                        flex-direction: row;
+                        .numberChair {
+                            display: flex;
+                            flex-wrap: wrap;
+                            .chairDetail {
+                                display: flex;
+                                flex-direction: row;
+                                gap: 10px;
+                                border: 1px solid red;
+                                padding: 5px;
+                                border-radius: 3px;
+                                max-width: fit-content;
+                                margin: 10px;
+                            }
+                        }
+                    }
+                }
+            }
+            .screen {
+                width: 100%;
+                height: 50px;
+                display: flex;
+                font-size: 35px;
+                font-weight: 600;
+                font-family: 'emoji';
+                align-content: center;
+                justify-content: center;
+            }
+        }
+    }
+    .footer {
+        height: 18vh;
+        min-height: 180px;
+        background-image: linear-gradient(to left, #a76a6a, #060606);
+        background-color: #fff; /* màu nền */
+        color: #e9ecef; /* màu chữ */
+        text-align: center; /* căn giữa nội dung */
+        position: fixed; /* đặt vị trí footer cố định */
+        bottom: 0; /* đặt vị trí footer ở phía dưới của trang */
+        width: 100%; /* chiều rộng của footer bằng chiều rộng của trang */
+        display: flex;
+        flex-direction: row;
+        font-size: 25px;
+        font-weight: 600;
+        font-family: 'emoji';
+        padding: 20px 0px 20px 10%;
+        .cairNote {
+            display: flex;
+            flex-direction: column;
+            width: 50%;
+            justify-content: center;
+            .listNoteChair {
+                display: flex;
+                max-height: 120px;
+                overflow-y: auto;
+                flex-direction: column;
+                width: 100%;
+                font-size: 20px;
+                font-weight: 400;
+                color: #e4d759;
+                align-items: center;
+                .noteShow {
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: space-between;
+                    min-width: 400px;
+                    align-items: center;
+                }
+                .listNoteChairLeft {
+                    display: flex;
+                    flex-direction: column;
+                    width: 50%;
+                    align-items: flex-start;
+                }
+                .listNoteChairRight{
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: left;
+                    width: 50%;
+                    align-items: flex-start;
+                }
+            }
+        }
+        .itemRight {
+            width: 50%;
+            justify-content: center;
+            display: flex;
+            align-items: center;
+            justify-items: center;
+            flex-direction: row;
+            gap: 10%;
+            .itemChairChose {
+                display: flex;
+                justify-content: center;
+                flex-direction: row;
+                height: 40px;
+            }
+            .textdata {
+                font-size: 20px;
+                font-weight: 400;
+                color: #e4d759;
+            }
+            .divbutton {
+                display: flex;
+                flex-direction: row;
+                justify-content: end;
+                align-content: flex-end;
+                gap: 20px;
+                .buttonNext {
+                    height: 32px;
+                    width: fit-content;
+                    font-size: 20px;
+                    font-weight: 500;
+                    font-family: 'emoji';
+                    border-radius: 5px;
+                    display: flex;
+                    padding: 0 auto;
+                    text-transform: none;
+                    align-items: center;
+                    color: #cb3e3e;
+                    background-color: #e4e0c2;
+                    border: '2px solid #D9D9D9';
+                    &:hover {
+                        color: white;
+                        background-color:red;
+                    }
+                }
+                .buttonNextRight {
+                    height: 32px;
+                    width: fit-content;
+                    font-size: 20px;
+                    font-weight: 500;
+                    font-family: 'emoji';
+                    border-radius: 5px;
+                    display: flex;
+                    padding: 0 auto;
+                    text-transform: none;
+                    align-items: center;
+                    color: #e4e0c2;
+                    background-color: #cb3e3e;
+                    border: '2px solid #D9D9D9';
+                    &:hover {
+                        color: white;
+                        background-color:red;
+                    }
+                }
+            }
+            
+        }
+    }
+}

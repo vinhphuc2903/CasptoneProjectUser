@@ -1,0 +1,88 @@
+// .addProduct {
+//     display: flex;
+//     flex-direction: column;
+  
+    .menuleft {
+        width:15%;
+        max-width: 15%;
+        margin-top: 20px;
+    }
+    .rightpage {
+        margin-left: 300px;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        :global {
+            .ck-blurred {
+                min-height: 200px;
+                max-height: 400px;
+                min-width: 400px;
+            }
+            .ck-content {
+                min-height: 200px;
+                max-height: 400px;
+            }
+        }
+        .infoProduct{
+            box-shadow: rgba(149, 157, 165, 0.41) 0px 8px 24px;
+            border-radius: 12px;
+            width: 1130px;
+            height: max-content;
+            padding-bottom: 20px;
+            margin-bottom: 20px;
+            .Detail{
+                display: flex;
+                justify-content: space-around;
+                
+            }
+            .imgProduct{
+                margin: 20px 0px;
+                display: flex;
+                justify-content: space-around;
+            }
+            .submitButton {
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                justify-content: center;
+                .buttonStyle {
+                    margin-left: 40px;
+                    width: '120px';
+                    background-color: '#333333';
+                    color: '#FFFFFF';
+                    
+                    height: '38px';
+                }
+            }
+        } 
+        .detailProduct{
+            box-shadow: rgba(149, 157, 165, 0.41) 0px 8px 24px;;
+            border-radius: 12px;
+            width: 1130px;
+            height: 500px;
+            display: flex;
+            justify-content: space-around;
+            padding-top: 50px;
+            .categoryName{
+                width: 250px;
+                height: 380px;
+                box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+                border-radius: 5px;
+            }
+            .productName{
+                width: 250px;
+                height: 250px;
+                box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+                border-radius: 5px;
+            }
+            .imgProduct{
+                width: 450px;
+                height: 176px;
+                color: rgba(128, 128, 128, 0.411);
+                display: flex;
+                flex-direction: row;
+            }
+         }
+       
+    }
+// }

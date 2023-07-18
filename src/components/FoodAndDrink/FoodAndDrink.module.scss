@@ -1,0 +1,61 @@
+.pageFood {
+    display: flex;
+    justify-content: center;
+    flex-basis: calc((100% - 80px) / 3);
+    .pageFoodAndDrink {
+        display: flex;
+        flex-direction: column;
+        min-width: 20%;
+        font-weight: 600;
+        font-size: 16px;
+        padding: 10px 8px;
+        color: aliceblue;
+        align-items: center;
+        border-radius: 3px;
+        font-family: 'emoji';
+        border: 1px solid #b9b1b1;
+        height: auto;
+        img {
+            width: 320px;
+            height: 320px;
+        }
+        .productName {
+            padding: 0px 10px;
+        }
+        .quantity {
+            padding: 0px 10px;
+        }
+        .price {
+            font-size: 16px;
+            padding: 0px 20px;
+            display: flex;
+            justify-content: center;
+            color: rgb(248, 97, 97);
+        }
+        .buttonCustom {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+            gap: 20px;
+            .buttonCs {
+                background-color: aliceblue;
+                font-weight: 600;
+                font-size: 24px;
+                padding: 0px;
+                width: 32px;
+                height: 32px;
+            }
+            .total {
+                width: 40px;
+                height: 32px;
+                border-radius: 5px;
+                background-color: aliceblue;
+                color: black;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+        }
+    }
+}

@@ -1,0 +1,176 @@
+.TableFooter {
+    display: flex;
+    justify-content: flex-start;
+    overflow-x: auto;
+    overflow-y: hidden;
+    position: sticky;
+    bottom: 0;
+    background: white;
+    // max-height: 100px;
+
+    div {
+        visibility: hidden;
+        max-height: 1px;
+    }
+
+    &::-webkit-scrollbar {
+        // -webkit-appearance: none;
+        height: 8px;
+        background-color: whitesmoke;
+    }
+    &::-webkit-scrollbar-thumb {
+        border-radius: 4px;
+        background-color: rgba(0, 0, 0, .5);
+        box-shadow: 0 0 1px rgba(255, 255, 255, .5);
+        height: 8px;
+    }
+}
+
+.TableHeader {
+    display: flex;
+    justify-content: flex-start;
+    overflow-x: auto;
+    pointer-events: none;
+
+    &::-webkit-scrollbar {
+        display: none;
+    }
+
+    position: sticky;
+    background: white;
+    font-weight: 600;
+    z-index: 1;
+    padding-top: 10px;
+
+    .TableHeaderCell {
+        padding: 10px;
+        height: 38px;
+        display: flex;
+        align-items: center;
+        border-left: none !important;
+        border-right: none !important;
+        flex: 1
+    }
+
+    div {
+        background: whitesmoke;
+    }
+
+    .FilterColumn {
+        cursor: pointer;
+        z-index: 9;
+        display: flex;
+        justify-content: center;
+        align-items: center
+    }
+}
+
+:global {
+    ._custom_scroll_body {
+        color: black;
+        .ReactVirtualized__Grid__innerScrollContainer {
+            &::-webkit-scrollbar {
+                display: none;
+            }
+        }
+    }
+}
+
+
+.TableRow {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    cursor: pointer;
+    border-bottom-color: rgb(224, 224, 224);
+    border-bottom-style: solid;
+
+    &:nth-child(1) {
+        .TableCell {
+            border-top: 1px solid rgba(224, 224, 224, 1);
+        }
+
+    }
+
+    &:hover {
+        background-color: #FBFAF4;
+
+        .TableCell {
+            background-color: #FBFAF4 !important;
+        }
+    }
+
+    .TableCell {
+        display: flex;
+        align-items: center;
+        border-bottom: 1px solid rgba(224, 224, 224, 1);
+        border-left: none !important;
+        border-right: none !important;
+        padding: 10px;
+        flex: 1
+    }
+
+    .FilterColumn {
+        cursor: pointer;
+        display: flex;
+        justify-content: center;
+        align-items: center
+    }
+
+    .MainRow {
+        display: flex;
+        width: 100%;
+        flex-direction: row;
+        cursor: pointer;
+
+    }
+
+    .SubRow {}
+}
+
+.noRowsRenderer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.EmptyTable {
+    // position: absolute;
+    height: 200px;
+    background-color: white;
+
+    .titleEmpty {
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 16px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+
+        /* hrm/neutral/icon */
+
+        color: #707070;
+        margin-top: 15px;
+        width: 100%;
+        justify-content: center;
+    }
+
+}
+
+.option-checkBox{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 400px;
+    font-weight: 400;
+    z-index: 10;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding-left: 10px;
+    column-gap: 20px;
+
+    
+}
